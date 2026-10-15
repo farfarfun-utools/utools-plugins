@@ -49,3 +49,13 @@ sh build.sh
 在源仓库完成插件的新增、删除或职责调整后，回到这里同步更新上面索引表的一行，
 并同步 [`.github/profile/README.md`](https://github.com/farfarfun-utools/.github/blob/main/profile/README.md)
 的「插件总览」表，保持这两处是插件一览的唯一入口。
+
+---
+
+## 关于 farfarfun-utools
+
+[farfarfun](https://github.com/farfarfun) 的 uTools 插件产品线：本地优先、集成 uTools
+主搜索框、统一 Vue 3 + Vite 技术栈。
+
+- 🏠 组织主页：<https://github.com/farfarfun-utools>
+- 📧 联系：farfarfun@qq.com
