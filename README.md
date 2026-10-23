@@ -15,6 +15,7 @@
 | <img src="https://raw.githubusercontent.com/farfarfun/.github/master/brand/png/mark/fundoc-64.png" alt="" width="40"> [utools-fundoc](https://github.com/farfarfun-utools/utools-fundoc) | 本地管理 Markdown 文档，支持 LaTeX 公式、多级目录与跨设备同步 | 主输入框关键字进入插件界面，可搜索或导入文档 | 本机 `dbStorage`；可选跨设备同步 |
 | <img src="https://raw.githubusercontent.com/farfarfun/.github/master/brand/png/mark/funlink-64.png" alt="" width="40"> [utools-funlink](https://github.com/farfarfun-utools/utools-funlink) | 把零散书签整理成网址导航：二级分类、拖拽排序、收集箱、废纸篓（可恢复） | 主输入框搜索网址后回车直接打开，支持指定浏览器 | 本机 `dbStorage`，不上传 |
 | <img src="https://raw.githubusercontent.com/farfarfun/.github/master/brand/png/mark/funotp-64.png" alt="" width="40"> [utools-funotp](https://github.com/farfarfun-utools/utools-funotp) | 替代手机上的验证器 App：本地离线生成 TOTP / HOTP 动态码，兼容 Google Authenticator | 主输入框搜账号名回车即复制验证码，常用账号可注册独立关键字 | 本机 `dbStorage`；可选 WebDav 备份（需手动配置） |
+| <img src="https://raw.githubusercontent.com/farfarfun-utools/utools-funcalendar/master/utools/logo.png" alt="" width="40"> [utools-funcalendar](https://github.com/farfarfun-utools/utools-funcalendar) | **时光常伴**：离线查看阳历、农历、节气与每日宜忌，按嫁娶、搬家、开市等事项查询吉日 | 输入 `时光常伴` / `日历` / `农历` / `黄历`；输入 `吉日` / `择吉` 进入筛选；插件内主输入框输入日期跳转 | 历法与宜忌数据随插件打包；仅在本机 `localStorage` 保存主题偏好，不联网 |
 
 ## 怎么挑
 
@@ -22,15 +23,16 @@
 - 想在 uTools 中管理 Markdown 文档 → `utools-fundoc`
 - 常用网址 / 文档入口**记不住又懒得翻书签** → `utools-funlink`
 - **手机验证器拿来拿去太麻烦**，想在电脑上复制验证码 → `utools-funotp`
+- 想**同时看阳历、农历、节气，按事情查吉日** → `utools-funcalendar`（时光常伴；黄历仅作民俗参考）
 
-四个插件互不依赖，可以只装其中任意一个。
+五个插件互不依赖，可以只装其中任意一个。
 
 ## 共同约定
 
-- **本地优先**：数据都存在 uTools 的 `dbStorage` 里，不需要注册账号、不需要自建服务端。唯一的外发网络请求是 `utools-funchat` 到你指定的大模型服务商，以及 `utools-funotp` 可选开启的 WebDav 备份。
+- **本地优先**：按需使用本地存储或 uTools 的 `dbStorage`，不需要注册账号、不需要自建服务端。时光常伴完全离线；其他插件的模型请求、同步和备份方式见各自 README。
 - **主搜索框集成**：核心操作都能在 uTools 主输入框里完成，不必先进插件界面再找功能。
-- **统一技术栈**：Vue 3 + Composition API + Vite，插件根目录统一是 `utools/`（`plugin.json`、`preload.js`、图标、构建产物）。
-- **统一构建入口**：每个仓库都有 `sh build.sh`，内含测试、类型检查、`plugin.json` 与 `preload.js` 校验，任一步失败即中止，不产出半成品。
+- **统一技术栈**：Vue 3 + Composition API + Vite，插件根目录统一是 `utools/`（`plugin.json`、图标、构建产物，按需包含 `preload.js`）。
+- **统一构建入口**：每个仓库都有 `sh build.sh`，执行各插件的测试、类型检查和构建校验，任一步失败即中止。
 
 ## 安装（通用步骤）
 
@@ -43,13 +45,13 @@ sh build.sh
 
 然后在 uTools 里打开「插件应用市场 → 开发者工具 → 新建项目」，载入 `utools/plugin.json`。
 
-需要 Node.js ≥ 20 与 pnpm（`corepack enable` 即可，版本跟着各仓库
-`package.json#packageManager` 走）。各插件的配置项、快捷键和备份方式见自己仓库的 README。
+Node.js 版本以各仓库 `package.json#engines` 为准（时光常伴要求 ≥ 22.22.2），
+pnpm 版本跟着 `package.json#packageManager` 走。各插件的配置项、快捷键和备份方式见自己仓库的 README。
 
 ## 新增 / 调整插件时
 
 在源仓库完成插件的新增、删除或职责调整后，回到这里同步更新上面索引表的一行，
-并同步 [`.github/profile/README.md`](https://github.com/farfarfun-utools/.github/blob/main/profile/README.md)
+并同步 [`.github/profile/README.md`](https://github.com/farfarfun-utools/.github/blob/master/profile/README.md)
 的「插件总览」表，保持这两处是插件一览的唯一入口。
 
 ---
