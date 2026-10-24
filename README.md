@@ -11,11 +11,11 @@
 
 | 插件 | 解决什么问题 | uTools 里怎么唤起 | 数据在哪 |
 | --- | --- | --- | --- |
-| <img src="https://raw.githubusercontent.com/farfarfun/.github/master/brand/png/mark/funchat-64.png" alt="" width="40"> [utools-funchat](https://github.com/farfarfun-utools/utools-funchat) | 和多个不同人设的 AI 角色聊天，角色可从内置市场挑，话题可回溯、可一键导出 | 主输入框关键字进入插件界面 | 本机 `dbStorage`；对话直接发往你自己配置的大模型服务商 |
+| <img src="https://raw.githubusercontent.com/farfarfun/.github/master/brand/png/mark/funchat-64.png" alt="" width="40"> [utools-funchat](https://github.com/farfarfun-utools/utools-funchat) | 和多个不同人设的 AI 角色聊天，角色可从内置市场挑，话题可回溯、可一键导出 | 输入 `AI` / `funchat` / `Funchat` / `聊天助手`，或选中文字使用「问 AI 好友」 | 本机 `dbStorage`；对话直接发往你自己配置的大模型服务商 |
 | <img src="https://raw.githubusercontent.com/farfarfun/.github/master/brand/png/mark/fundoc-64.png" alt="" width="40"> [utools-fundoc](https://github.com/farfarfun-utools/utools-fundoc) | 本地管理 Markdown 文档，支持 LaTeX 公式、多级目录与跨设备同步 | 主输入框关键字进入插件界面，可搜索或导入文档 | 本机 `dbStorage`；可选跨设备同步 |
 | <img src="https://raw.githubusercontent.com/farfarfun/.github/master/brand/png/mark/funlink-64.png" alt="" width="40"> [utools-funlink](https://github.com/farfarfun-utools/utools-funlink) | 把零散书签整理成网址导航：二级分类、拖拽排序、收集箱、废纸篓（可恢复） | 主输入框搜索网址后回车直接打开，支持指定浏览器 | 本机 `dbStorage`，不上传 |
 | <img src="https://raw.githubusercontent.com/farfarfun/.github/master/brand/png/mark/funotp-64.png" alt="" width="40"> [utools-funotp](https://github.com/farfarfun-utools/utools-funotp) | 替代手机上的验证器 App：本地离线生成 TOTP / HOTP 动态码，兼容 Google Authenticator | 主输入框搜账号名回车即复制验证码，常用账号可注册独立关键字 | 本机 `dbStorage`；可选 WebDav 备份（需手动配置） |
-| <img src="https://raw.githubusercontent.com/farfarfun-utools/utools-funcalendar/master/utools/logo.png" alt="" width="40"> [utools-funcalendar](https://github.com/farfarfun-utools/utools-funcalendar) | **[时光常伴](https://farfarfun.github.io/packages/utools-funcalendar/)**：离线查看阳历、农历、节气与每日宜忌，按嫁娶、搬家、开市等事项查询吉日 | 输入 `时光常伴` / `日历` / `农历` / `黄历`；输入 `吉日` / `择吉` 进入筛选；插件内主输入框输入日期跳转 | 历法与宜忌数据随插件打包；仅在本机 `localStorage` 保存主题偏好，不联网 |
+| <img src="https://raw.githubusercontent.com/farfarfun-utools/utools-funcalendar/master/utools/logo.png" alt="" width="40"> [utools-funcalendar](https://github.com/farfarfun-utools/utools-funcalendar) | **[时光常伴](https://farfarfun.github.io/packages/utools-funcalendar/)**：离线查看阳历、农历、节气与每日宜忌，按嫁娶、搬家、开市等事项查询吉日 | 输入 `时光常伴` / `FunCalendar` / `日历` / `黄历`；输入 `吉日` 进入筛选；插件内主输入框输入日期跳转 | 历法与宜忌数据随插件打包；仅在本机 `localStorage` 保存主题偏好，不联网 |
 
 ## 怎么挑
 
