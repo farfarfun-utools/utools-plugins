@@ -17,7 +17,7 @@
 | <img src="https://raw.githubusercontent.com/farfarfun/.github/master/brand/png/mark/funotp-64.png" alt="" width="40"> [utools-funotp](https://github.com/farfarfun-utools/utools-funotp) | **[密钥随行](https://farfarfun.github.io/packages/utools-funotp/)**：替代手机上的验证器 App：本地离线生成 TOTP / HOTP 动态码，兼容 Google Authenticator | 输入 `密钥随行` 打开；主输入框搜账号名回车即复制验证码，常用账号可注册独立关键字 | 本机 `dbStorage`；可选 WebDav 备份（需手动配置） |
 | <img src="https://raw.githubusercontent.com/farfarfun-utools/utools-funcalendar/master/utools/logo.png" alt="" width="40"> [utools-funcalendar](https://github.com/farfarfun-utools/utools-funcalendar) | **[时光常伴](https://farfarfun.github.io/packages/utools-funcalendar/)**：离线查看阳历、农历、节气与每日宜忌，按嫁娶、搬家、开市等事项查询吉日 | 输入 `时光常伴` / `FunCalendar` / `日历` / `黄历`；输入 `吉日` 进入筛选；插件内主输入框输入日期跳转 | 历法与宜忌数据随插件打包；仅在本机 `localStorage` 保存主题偏好，不联网 |
 | <img src="https://raw.githubusercontent.com/farfarfun-utools/utools-funqr/master/utools/logo.png" alt="" width="40"> [utools-funqr](https://github.com/farfarfun-utools/utools-funqr) | **[码上生花](https://farfarfun.github.io/packages/utools-funqr/)**：文本与二维码互转，自定义配色、渐变、码点和中心 Logo，导出 PNG / SVG | 输入 `码上生花` / `FunQR` / `二维码`；输入 `扫码` 识别图片；选中文字使用「生成二维码」 | 完全离线，图片和内容仅在当前会话处理；仅保存主题偏好 |
-| <img src="https://raw.githubusercontent.com/farfarfun-utools/utools-funcalc/master/utools/logo.png" alt="" width="40"> [utools-funcalc](https://github.com/farfarfun-utools/utools-funcalc) | **FunCalc**：支持变量、矩阵和 LaTeX 排版的计算笔记本，历史可搜索、复制与复用 | 输入 `FunCalc` / `计算笔记` / `历史计算器` / `矩阵计算`；选中文字后选择计算表达式 | 本机 IndexedDB；历史和变量一起持久化，不联网、不自动清理 |
+| <img src="https://raw.githubusercontent.com/farfarfun-utools/utools-funcalc/master/utools/logo.png" alt="" width="40"> [utools-funcalc](https://github.com/farfarfun-utools/utools-funcalc) | **[算有所得](https://farfarfun.github.io/packages/utools-funcalc/)**：支持变量、矩阵和 LaTeX 排版的计算笔记本，历史可搜索、复制与复用 | 输入 `算有所得` / `FunCalc` / `计算笔记` / `历史计算器` / `矩阵计算`；选中文字后选择计算表达式 | 本机 IndexedDB；历史和变量一起持久化，不联网、不自动清理 |
 
 ## 怎么挑
 
@@ -27,7 +27,7 @@
 - **手机验证器拿来拿去太麻烦**，想在电脑上复制验证码 → `utools-funotp`（密钥随行）
 - 想**同时看阳历、农历、节气，按事情查吉日** → `utools-funcalendar`（时光常伴；黄历仅作民俗参考）
 - 想**把文字变成好看的二维码，或识别图片里的二维码** → `utools-funqr`（码上生花）
-- 想**保留计算过程，复用变量并计算矩阵** → `utools-funcalc`（FunCalc）
+- 想**保留计算过程，复用变量并计算矩阵** → `utools-funcalc`（算有所得）
 
 这些插件互不依赖，可以只装其中任意一个。
 
