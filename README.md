@@ -41,12 +41,12 @@
 
 - **本地优先**：按需使用本地存储或 uTools 的 `dbStorage`，不需要注册账号、不需要自建服务端。时光常伴与码上生花完全离线；其他插件的模型请求、同步和备份方式见各自 README。
 - **主搜索框集成**：核心操作都能在 uTools 主输入框里完成，不必先进插件界面再找功能。
-- **实现方式**：各插件依功能选用 Vue 3 + Vite 或原生 HTML/CSS/JavaScript；插件根目录统一是 `utools/`。
-- **构建与验证**：以各仓库 README 和 CI 为准，视频工坊与图片工坊无需前端构建。
+- **实现方式**：各插件使用 Vite 构建前端，按功能选用 Vue 3/TypeScript 或原生 JavaScript；插件运行目录统一是 `utools/`。
+- **构建与验证**：仓库根目录的 `sh build.sh` 是统一入口，产物写入 `utools/dist/`；CI 与 Release 都调用它。
 
 ## 安装（通用步骤）
 
-从各插件的 GitHub Release 下载 `.upxs` 导入 uTools；开发版可按对应仓库的 README 在开发者工具中载入 `utools/plugin.json`。各插件的配置项、快捷键和备份方式也见各自 README。
+从各插件的 GitHub Release 下载 `.upxs` 导入 uTools；开发版先运行 `sh build.sh`，再按对应仓库的 README 在开发者工具中载入 `utools/plugin.json`。各插件的配置项、快捷键和备份方式也见各自 README。
 
 ## 新增 / 调整插件时
 
