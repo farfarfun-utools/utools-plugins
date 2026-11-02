@@ -21,6 +21,8 @@
 | <img src="https://raw.githubusercontent.com/farfarfun/.github/master/brand/png/mark/funvideo-64.png" alt="" width="40"> [utools-funvideo](https://github.com/farfarfun-utools/utools-funvideo) | **[视频工坊](https://farfarfun.github.io/packages/utools-funvideo/)**：批量压缩、裁剪、转换、抽帧及音频处理视频 | 输入 `视频工坊` / `FunVideo` / `批量视频`；也可选中视频文件后进入 | 视频仅在本机处理，不保存历史；处理结果保存到独立批次目录 |
 | <img src="https://raw.githubusercontent.com/farfarfun/.github/master/brand/png/mark/funimage-64.png" alt="" width="40"> [utools-funimage](https://github.com/farfarfun-utools/utools-funimage) | **[图片工坊](https://farfarfun.github.io/packages/utools-funimage/)**：批量压缩、编辑、加水印、拼图及合并 PDF/GIF | 输入 `图片工坊` / `FunImage` / `图片压缩`；也可选中图片文件后进入 | 图片仅在本机处理，不保存历史；结果另存新文件 |
 
+各插件还提供按职责划分的 AI 工具，例如计算、日历查询、二维码识别、文档搜索与新建，以及书签管理。工具列表与可返回的数据见各插件 README；第三方 Agent 需由用户开启 uTools MCP 服务。
+
 ## 怎么挑
 
 - 想**少开一个窗口聊 AI** → `utools-funchat`（言来语往）
