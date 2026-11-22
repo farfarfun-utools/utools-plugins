@@ -20,6 +20,7 @@
 | <img src="https://raw.githubusercontent.com/farfarfun/.github/b0915330bb901208953c4027a545c16c9654f4a9/brand/png/mark/funcalc-64.png" alt="" width="40"> [utools-funcalc](https://github.com/farfarfun-utools/utools-funcalc) | **[算有所得](https://farfarfun.github.io/packages/utools-funcalc/)**：支持变量、矩阵和 LaTeX 排版的计算笔记本，历史可搜索、复制与复用 | 主输入框输入数字算式直接查看并复制结果；输入 `算有所得` / `FunCalc` / `计算笔记` / `历史计算器` / `矩阵计算` 打开；也可选中文字后计算 | 本机 IndexedDB；历史和变量一起持久化，重复结果合并，不联网 |
 | <img src="https://raw.githubusercontent.com/farfarfun/.github/b0915330bb901208953c4027a545c16c9654f4a9/brand/png/mark/funvideo-64.png" alt="" width="40"> [utools-funvideo](https://github.com/farfarfun-utools/utools-funvideo) | **[视频工坊](https://farfarfun.github.io/packages/utools-funvideo/)**：批量压缩、裁剪、转换、抽帧及处理音频，可将多个时间点的画面拼成一张 JPG | 输入 `视频工坊` / `FunVideo` / `批量视频`；也可选中视频文件后进入 | 视频仅在本机处理，不保存历史；处理结果保存到独立批次目录 |
 | <img src="https://raw.githubusercontent.com/farfarfun/.github/b0915330bb901208953c4027a545c16c9654f4a9/brand/png/mark/funimage-64.png" alt="" width="40"> [utools-funimage](https://github.com/farfarfun-utools/utools-funimage) | **[图片工坊](https://farfarfun.github.io/packages/utools-funimage/)**：批量压缩、编辑、加水印，可调整队列顺序后拼图或合并为 PDF、GIF | 输入 `图片工坊` / `FunImage` / `图片压缩`；也可选中图片文件后进入 | 图片仅在本机处理，不保存历史；结果另存新文件 |
+| <img src="https://raw.githubusercontent.com/farfarfun/farfarfun-web/92c809ee6a0828558b3cb480982d585faaefc2ed/brand/png/mark/funjson-64.png" alt="" width="40"> [utools-funjson](https://github.com/farfarfun-utools/utools-funjson) | **[数形万变](https://github.com/farfarfun-utools/utools-funjson)**：离线 JSON 与多格式数据处理工作台，支持文本/树形/栏列/表格/差异视图、JSONPath 查询、10 种格式互转、9 种语言类型生成与 JWT/Protobuf/编解码工具箱 | 输入 `数形万变` / `FunJSON` / `json` / `JSON格式化` / `yaml` / `jwt`；也支持匹配 JSON 正则、打开数据文件或选中文本解析 | 完全离线，多标签页、历史快照与偏好保存在 uTools 本地存储或 `localStorage`（仅在手动触发 AI 修复时请求所选模型） |
 
 各插件还提供按职责划分的 AI 工具，例如计算、日历查询、二维码识别、文档搜索与新建，以及书签管理。工具列表与可返回的数据见各插件 README；第三方 Agent 需由用户开启 uTools MCP 服务。
 
@@ -34,6 +35,7 @@
 - 想**保留计算过程，复用变量并计算矩阵** → `utools-funcalc`（算有所得）
 - 想批量加工本地视频 → `utools-funvideo`（视频工坊）
 - 想批量编辑、预览或拼接图片 → `utools-funimage`（图片工坊）
+- 想**格式化、查询、对比、转换 JSON / YAML / TOML / XML / CSV / Protobuf，或离线生成多语言类型与解析 JWT** → `utools-funjson`（数形万变）
 
 这些插件互不依赖，可以只装其中任意一个。
 
