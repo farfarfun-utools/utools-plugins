@@ -22,6 +22,7 @@
 | <img src="https://raw.githubusercontent.com/farfarfun/.github/b0915330bb901208953c4027a545c16c9654f4a9/brand/png/mark/funimage-64.png" alt="" width="40"> [utools-funimage](https://github.com/farfarfun-utools/utools-funimage) | **[图片工坊](https://farfarfun.github.io/packages/utools-funimage/)**：批量压缩、编辑、加水印，可调整队列顺序后拼图或合并为 PDF、GIF | 输入 `图片工坊` / `FunImage` / `图片压缩`；也可选中图片文件后进入 | 图片仅在本机处理，不保存历史；结果另存新文件 |
 | <img src="https://raw.githubusercontent.com/farfarfun/farfarfun-web/34c5b1a3e2d830db964be200701c6494addbdd91/brand/png/mark/funjson-64.png" alt="" width="40"> [utools-funjson](https://github.com/farfarfun-utools/utools-funjson) | **[JSON工坊](https://farfarfun.github.io/packages/utools-funjson/)**：离线 JSON 五视图工作台，支持编辑/树形/多级递归嵌套表格/栏列/语义差异对比、JSONPath 查询、智能修复、9 语言类型生成与键名转换 | 输入 `JSON工坊` / `FunJSON` / `json` / `JSON格式化` / `JSONPath`；支持正则识别 JSON、打开 JSON 文件或选中文本解析 | 完全离线，多标签页、历史快照与偏好保存在本机（仅在手动触发外部 AI 修复时请求所选服务商） |
 | <img src="https://raw.githubusercontent.com/farfarfun/farfarfun-web/34c5b1a3e2d830db964be200701c6494addbdd91/brand/png/mark/fundata-64.png" alt="" width="40"> [utools-fundata](https://github.com/farfarfun-utools/utools-fundata) | **[数形万变](https://farfarfun.github.io/packages/utools-fundata/)**：离线 15 合 1 开发者数据工具箱，15 款独立工具涵盖 10 格式互转、SQL、Protobuf、文本编解码、JWT、哈希/HMAC、UUID/密钥、时间戳、Cron、正则、颜色、进制、字节、文本对比与批处理 | 输入 `数形万变` / `FunData` / `数据转换` / `yaml` / `jwt` / `sql` / `cron` / `regex` / `hash` / `uuid`（按工具拆分为多组入口）；也支持打开数据文件或选中文本自动路由 | 完全离线，所有运算、签名、哈希与解析均在本机完成；仅在本机保存主题/语言偏好 |
+| <img src="https://raw.githubusercontent.com/farfarfun/farfarfun-web/c933074d78bd02d34486fb0e030a2e03c33937b0/brand/png/mark/funcolor-64.png" alt="" width="40"> [utools-funcolor](https://github.com/farfarfun-utools/utools-funcolor) | **[拾色生花](https://github.com/farfarfun-utools/utools-funcolor)**：离线颜色助手与配色工作室，支持屏幕/图片吸管取色与主色板提取、13 种全格式色值转换、OKLCH 11 级色阶与 6 种和谐配色、CSS 渐变工坊、WCAG/APCA 对比度校验、色盲模拟与中国传统色库 | 输入 `拾色生花` / `FunColor` / `颜色` / `取色` / `配色`；输入 `屏幕取色` 立即吸色；支持正则识别色值、打开图片取色或选中色值进入 | 完全离线，所有取色、图片聚类与计算均在本机完成；收藏夹、历史记录与主题偏好保存在本机 |
 
 各插件还提供按职责划分的 AI 工具，例如计算、日历查询、二维码识别、文档搜索与新建，以及书签管理。工具列表与可返回的数据见各插件 README；第三方 Agent 需由用户开启 uTools MCP 服务。
 
@@ -38,6 +39,7 @@
 - 想批量编辑、预览或拼接图片 → `utools-funimage`（图片工坊）
 - 想**深度查看、编辑、嵌套表格浏览、JSONPath 查询、语义对比 JSON，或生成多语言类型** → `utools-funjson`（JSON工坊）
 - 想**做多格式互转（YAML/TOML/XML/CSV）、编解码与时间戳、JWT 验签签发、Protobuf/SQL 美化、哈希/UUID、正则测试、Cron 推算或色值/进制/文本批处理** → `utools-fundata`（数形万变）
+- 想**屏幕/图片取色、全格式色值转换（含 OKLCH/SwiftUI/Flutter）、生成 11 级色阶与配色方案、调 CSS 渐变或校检 WCAG 对比度与色盲效果** → `utools-funcolor`（拾色生花）
 
 这些插件互不依赖，可以只装其中任意一个。
 
