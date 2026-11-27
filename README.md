@@ -25,6 +25,7 @@
 | <img src="https://farfarfun.com/brand/png/mark/funcolor-64.png" alt="" width="40"> [utools-funcolor](https://github.com/farfarfun-utools/utools-funcolor) | **[拾色生花](https://github.com/farfarfun-utools/utools-funcolor)**：离线颜色助手与配色工作室，支持屏幕/图片吸管取色与主色板提取、13 种全格式色值转换、OKLCH 11 级色阶与 6 种和谐配色、CSS 渐变工坊、WCAG/APCA 对比度校验、色盲模拟与中国传统色库 | 输入 `拾色生花` / `FunColor` / `颜色` / `取色` / `配色`；输入 `屏幕取色` 立即吸色；支持正则识别色值、打开图片取色或选中色值进入 | 完全离线，所有取色、图片聚类与计算均在本机完成；收藏夹、历史记录与主题偏好保存在本机 |
 | <img src="https://farfarfun.com/brand/png/mark/funmeme-64.png" alt="" width="40"> [utools-funmeme](https://github.com/farfarfun-utools/utools-funmeme) | **[趣图生花](https://github.com/farfarfun-utools/utools-funmeme)**：表情包检索与梗图制作工坊，支持公开接口斗图（Imgflip 免 Key + 可选 GIPHY/Tenor/自定义 JSON）、10 款手绘梗图加字、8 款文字大字报表情与 Emoji/颜文字贴纸库 | 输入 `趣图生花` / `FunMeme` / `表情包` / `斗图` / `梗图`；输入 `表情制作` 或 `颜文字` 直达对应工坊；支持打开图片加字或选中文字秒出表情 | 本地优先；梗图/文字表情制作与内置图库完全离线，仅在手动触发「联网拉取」时请求所选公开接口；收藏与可选 Key 保存在本机 |
 | <img src="https://farfarfun.com/brand/png/mark/funtime-64.png" alt="" width="40"> [utools-funtime](https://github.com/farfarfun-utools/utools-funtime) | **[分秒必争](https://github.com/farfarfun-utools/utools-funtime)**：离线时间助手，支持多任务倒计时与番茄钟、毫秒秒表与记次导出、置顶桌面悬浮小窗（实时双向同步）、28 城世界时钟与跨时区会议滑块及时间推算 | 输入 `分秒必争` / `FunTime` / `倒计时` / `计时器` / `世界时钟`；输入 `秒表` / `番茄钟` / `悬浮时钟` 直达模块；主输入框输入 `25m` / `10分钟` 立即开始倒计时 | 完全离线，计时器、关注时区与悬浮窗偏好保存在本机，不联网 |
+| <img src="https://farfarfun.com/brand/png/mark/funsecret-64.png" alt="" width="40"> [utools-funsecret](https://github.com/farfarfun-utools/utools-funsecret) | **[密藏随行](https://github.com/farfarfun-utools/utools-funsecret)**：基于原生 `funsecret` 命令行的本地多级分类加密密钥管理，支持分类树浏览、按需复制（自动清空剪贴板）、临时明文查看与外部数据库同步 | 输入 `密藏随行` / `FunSecret` / `funsecret` / `密钥管理` 打开；输入 `写入密钥` 新增；主输入框搜密钥路径回车直接复制 | 所有密钥仅保存在本机 `funsecret` 数据库（默认 `~/.secret/.funsecret.db`），不进 uTools 云同步；仅在手动触发外部库 `save`/`load` 时联网 |
 
 各插件还提供按职责划分的 AI 工具，例如计算、日历查询、二维码识别、文档搜索与新建，以及书签管理。工具列表与可返回的数据见各插件 README；第三方 Agent 需由用户开启 uTools MCP 服务。
 
@@ -44,6 +45,7 @@
 - 想**屏幕/图片取色、全格式色值转换（含 OKLCH/SwiftUI/Flutter）、生成 11 级色阶与配色方案、调 CSS 渐变或校检 WCAG 对比度与色盲效果** → `utools-funcolor`（拾色生花）
 - 想**快速搜图斗图、给梗图加字贴纸、一键生成文字表情包或复制 Emoji/颜文字** → `utools-funmeme`（趣图生花）
 - 想**多任务倒计时/番茄钟、毫秒秒表记次、把计时器悬浮在桌面最前端，或一眼对比全球跨时区会议时间** → `utools-funtime`（分秒必争）
+- 想**通过原生 `funsecret` 命令行管理本机多级分类账号密码、API Key 与数据库连接串，并在主框一键搜路径复制** → `utools-funsecret`（密藏随行）
 
 这些插件互不依赖，可以只装其中任意一个。
 
